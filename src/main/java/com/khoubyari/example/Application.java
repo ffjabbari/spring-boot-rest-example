@@ -29,6 +29,7 @@ public class Application extends SpringBootServletInitializer {
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+	    //test1
         return application.sources(applicationClass);
     }
 
